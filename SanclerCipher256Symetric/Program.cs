@@ -24,10 +24,26 @@ namespace SanclerCipher256Symetric
 
             // Get user's input
             Console.WriteLine("Please enter your secret message and press enter:");
+            Console.ForegroundColor = ConsoleColor.Red;
             string secretMessage = Console.ReadLine();
 
             // Write user's input in the created file
             File.WriteAllText(filePath, secretMessage);
+
+            // Show the user what message is saved in the file
+            Console.ResetColor();
+            Console.WriteLine("\n\nThe TopSecret file contains the message:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            string unEncryptedMessage = File.ReadAllText(filePath);
+            Console.WriteLine(unEncryptedMessage);
+
+            // Ask the user to set the key to encrypt and decrypt the file
+            Console.ResetColor();
+            Console.WriteLine("\n\nPlease provide the encryption/decryption key:");
+            Console.ForegroundColor = ConsoleColor.Red;
+            string key = Console.ReadLine();
+
+            // Encrypt the file
 
         }
     }
