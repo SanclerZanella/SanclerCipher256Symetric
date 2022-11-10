@@ -121,7 +121,6 @@ namespace SanclerCipher256Symetric
                 }
 
             }
-                    return "";
 
         }
 
