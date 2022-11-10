@@ -44,6 +44,35 @@ namespace SanclerCipher256Symetric
             string key = Console.ReadLine();
 
             // Encrypt the file
+            Console.ResetColor();
+            string encryptedMessage = StringCipher.Encrypt(secretMessage, key);
+            File.WriteAllText(filePath, encryptedMessage);
+
+            Console.WriteLine("\n\nThe secret message has been encrypted to:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(encryptedMessage);
+            Console.ResetColor();
+
+            Console.WriteLine("\n\nThe TopSecret file contains the message:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(File.ReadAllText(filePath));
+            Console.ResetColor();
+
+            // Dencrypt the file
+            Console.WriteLine("\n\nPress enter to decrypt the file:");
+            Console.ReadLine();
+
+            Console.WriteLine("\n\nEnter the key to decrypt the file:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            string decryptKey = Console.ReadLine();
+
+            string decryptedMessage = StringCipher.Decrypt(encryptedMessage, decryptKey);
+            Console.WriteLine(decryptedMessage);
+            File.WriteAllText(filePath, decryptedMessage);
+            Console.WriteLine("\n\n The Top Secret file contains the message:");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(File.ReadAllText(filePath));
+            Console.ResetColor();
 
         }
     }
