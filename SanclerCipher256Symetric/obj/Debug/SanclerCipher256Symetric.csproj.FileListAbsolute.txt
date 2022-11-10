@@ -1,0 +1,8 @@
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\bin\Debug\SanclerCipher256Symetric.exe.config
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\bin\Debug\SanclerCipher256Symetric.exe
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\bin\Debug\SanclerCipher256Symetric.pdb
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\obj\Debug\SanclerCipher256Symetric.csproj.AssemblyReference.cache
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\obj\Debug\SanclerCipher256Symetric.csproj.SuggestedBindingRedirects.cache
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\obj\Debug\SanclerCipher256Symetric.csproj.CoreCompileInputs.cache
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\obj\Debug\SanclerCipher256Symetric.exe
+C:\Users\zanellasa\source\repos\SanclerCipher256Symetric\SanclerCipher256Symetric\obj\Debug\SanclerCipher256Symetric.pdb
